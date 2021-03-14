@@ -99,7 +99,7 @@ ReactDOM.render(<App />, document.getElementById("root"));
 
 - 修改 effect 内部的代码以确保它包含的值只会在需要的时候发生变更。我们不想告知错误的依赖 - 我们只是修改 effect 使依赖更少。
 
-  ## 5. 让 Effect 自给自足
+## 5. 让 Effect 自给自足
 
 我们想要根据前一个状态更新状态的时候，我们可以使用 setState 的 函数形式
 
